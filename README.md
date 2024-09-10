@@ -1,4 +1,3 @@
-[![pipeline status](https://gitlab.verizon.com/gonch26/orswift/badges/develop/pipeline.svg)](https://gitlab.verizon.com/gonch26/orswift/-/commits/develop)  
 
 ---
 
