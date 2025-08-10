@@ -10,8 +10,8 @@
 
 public let OrNameArt: String =
 
-"""
-   
+#"""
+
         ....                                ...                               .                   s    
     .x~X88888Hx.                        .x888888hx    :   x=~                @88>     oec :      :8    
    H8X 888888888h.      .u    .        d88888888888hxx   88x.   .e.   .e.    %8P     @88888     .88    
@@ -27,8 +27,8 @@ public let OrNameArt: String =
                                                                                       88>              
                                                                                       48               
                                                                                       '8               
-
-"""
+                                                                                      88
+"""#
 
 
 // MARK: - Core
