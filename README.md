@@ -2,32 +2,32 @@
 ---
 
 
+```ASCII
+   
+        ....                                ...                               .                   s    
+    .x~X88888Hx.                        .x888888hx    :   x=~                @88>     oec :      :8    
+   H8X 888888888h.      .u    .        d88888888888hxx   88x.   .e.   .e.    %8P     @88888     .88    
+  8888:`*888888888:   .d88B :@8c      8" ... `"*8888%`  '8888X.x888:.x888     .      8"*88%    :888ooo 
+  88888:        `%8  ="8888f8888r    !  "   ` .xnxx.     `8888  888X '888k  .@88u    8b.     -*8888888 
+. `88888          ?>   4888>'88"     X X   .H8888888%:    X888  888X  888X ''888E`  u888888>   8888    
+`. ?888%           X   4888> '       X 'hn8888888*"   >   X888  888X  888X   888E    8888R     8888    
+  ~*??.            >   4888>         X: `*88888%`     !   X888  888X  888X   888E    8888P     8888    
+ .x88888h.        <   .d888L .+      '8h.. ``     ..x8>  .X888  888X. 888~   888E    *888>    .8888Lu= 
+:"""8888888x..  .x    ^"8888*"        `88888888888888f   `%88%``"*888Y"      888&    4888     ^%888*   
+`    `*888888888"        "Y"           '%8888888888*"      `~     `"         R888"   '888       'Y"    
+        ""***""                           ^"****""`                           ""      88R              
+                                                                                      88>              
+                                                                                      48               
+                                                                                      '8               
+
+
+
 ```
 
-sSSs_sSSs     .S_sSSs           sSSs    sSSs_sSSs     .S_sSSs           sSSs   .S     S.    .S    sSSs  sdSS_SSSSSSbs
-d%%SP~YS%%b   .SS~YS%%b         d%%SP.  d%%SP~YS%%b   .SS~YS%%b         d%%SP. .SS     SS.  .SS   d%%SP. YSSS~S%SSSSSP.
-d%S'     `S%b  S%S   `S%b       d%S'    d%S'     `S%b  S%S   `S%b       d%S'    S%S     S%S  S%S  d%S'         S%S
-S%S       S%S  S%S    S%S       S%S     S%S       S%S  S%S    S%S       S%|     S%S     S%S       S%S          S%S
-S&S       S&S  S%S    d*S       S&S     S&S       S&S  S%S    d*S       S&S     S%S     S%S  S&S  S&S          S&S
-S&S       S&S  S&S   .S*S       S&S_Ss  S&S       S&S  S&S   .S*S       Y&Ss    S&S     S&S  S&S  S&S_Ss       S&S
-S&S       S&S  S&S_sdSSS        S&S~SP. S&S       S&S  S&S_sdSSS        `S&&S   S&S     S&S  S&S  S&S~SP.      S&S
-S&S       S&S  S&S~YSY%b        S&S     S&S       S&S  S&S~YSY%b          `S*S  S&S     S&S  S&S  S&S          S&S
-S*b       d*S  S*S   `S%b       S*b     S*b       d*S  S*S   `S%b          l*S  S*s  *  S*S  S*S  S*b          S*S
-S*S.     .S*S  S*S    S%S       S*S     S*S.     .S*S  S*S    S%S         .S*P  S*s .s. S*S  S*S  S*S          S*S
-SSSbs_sdSSS   S*S    S&S       S*S      SSSbs_sdSSS   S*S    S&S       sSS*S   S*S_sSs_S*S  S*S  S*S          S*S
-YSSP~YSSY   .S*S    SSS      .S*S       YSSP~YSSY   .S*S    SSS       YSS'    SSS~SSS~S*S .S*S .S*S         .S*S
-           sP               sP                     sP                                    sP   sP           sP
-           Y                Y                      Y                                     Y    Y            Y
-
-```
-
-
-
-`Or` supercharges optional bindings `?` and unwrapping by abstracting optional unwrapping logical conditions and providing defaults values instead of `nil`, which helps to ease and reduce complexity in a reactive and declarative setting.
 
 ## Overview
 
-OrSwift is a lightweight Swift library that provides convenient extensions for handling Optional values by offering sensible default values instead of `nil`. It transforms verbose optional unwrapping patterns into clean, readable code that's perfect for reactive and declarative programming styles.
+`Or` is a lightweight Swift library that provides convenient extensions for handling Optional values by offering sensible default values instead of `nil`. It transforms verbose optional unwrapping patterns into clean, readable code that's perfect for reactive and declarative programming styles.
 
 ## Features
 
@@ -215,11 +215,17 @@ OrSwift is designed for zero runtime overhead:
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is available under the MIT license. See the LICENSE file for more info.
-
 ## Requirements
 
 - Swift 5.10+
 - iOS 13.0+ / macOS 10.15+ / tvOS 13.0+ / watchOS 6.0+
+
+## License
+
+This project is available under the MIT license. See the LICENSE file for more info.
+
+---
+
+ASCII Art from `https://patorjk.com/software/taag/#p=display&f=Fraktur&t=Or%20Swift%0A`
+
+---
