@@ -346,20 +346,18 @@ extension Optional where Wrapped: Collection {
     public var orEmpty: Wrapped {
         
         @inline(__always)
-        
         get {
-            
             guard let self = self else {
-                
-                if let emptySet = Set<AnyHashable>([]) as? Wrapped {
-                    return emptySet
-                } else if let emptyArray = [] as? Wrapped {
+                // Optimized: Check most common types first for better branch prediction
+                if let emptyArray = [] as? Wrapped {
                     return emptyArray
                 } else if let emptyDictionary = [:] as? Wrapped {
                     return emptyDictionary
+                } else if let emptySet = Set<AnyHashable>([]) as? Wrapped {
+                    return emptySet
                 }
-                
-                fatalError("`orEmpty` is available for Set, Array and Dictionary collections.")
+
+                fatalError("`orEmpty` is only available for Set, Array and Dictionary collections.")
             }
             
             return self
