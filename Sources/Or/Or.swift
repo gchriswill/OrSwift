@@ -346,7 +346,9 @@ extension Optional where Wrapped: Collection {
     public var orEmpty: Wrapped {
         
         @inline(__always)
+
         get {
+            
             guard let self = self else {
                 // Optimized: Check most common types first for better branch prediction
                 if let emptyArray = [] as? Wrapped {
