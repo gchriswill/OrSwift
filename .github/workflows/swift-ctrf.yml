@@ -1,0 +1,35 @@
+# Alternative workflow using CTRF for test reporting
+name: Unit Tests (CTRF)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install CTRF dependencies
+      run: npm install -g github-actions-ctrf
+    
+    - name: Build
+      run: swift build -v
+      
+    - name: Run Tests with CTRF output
+      run: |
+        swift test --enable-code-coverage --parallel --reporter junit > test-results.xml
+        # Convert JUnit to CTRF format (you'd need a converter tool)
+        
+    - name: Report Tests
+      run: npx github-actions-ctrf tests test-results.xml
+      if: always()

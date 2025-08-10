@@ -15,11 +15,21 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v4
-    #- name: Build
-      #run: swift build -v
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Build
+      run: swift build -v
+      
     - name: Run Tests
-      run: swift test -v
-    # - name: Report Tests
-    #   run: npx github-actions-ctrf tests path-to-your-ctrf-report.json
-    #   if: always()
+      run: swift test -v --parallel
+      
+    - name: Test Summary
+      run: |
+        echo "✅ All tests completed successfully!"
+      if: success()
+      
+    - name: Test Failure Report
+      run: |
+        echo "❌ Tests failed. Please check the test output above for details."
+      if: failure()
