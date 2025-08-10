@@ -3,7 +3,7 @@
 //  Or for Swift
 //
 //  Created by Christopher Gonzalez Melendez on 8/14/24.
-//  Copyright © 2024 Christopher Gonzalez Melendez. All rights reserved.
+//  Copyright © 2025 Christopher Gonzalez Melendez. All rights reserved.
 //
 //  Licensed under the MIT License.
 //  See LICENSE file in the project root for full license information.
