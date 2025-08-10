@@ -20,6 +20,6 @@ jobs:
       #run: swift build -v
     - name: Run Tests
       run: swift test -v
-    - name: Report Tests
-      run: npx github-actions-ctrf tests path-to-your-ctrf-report.json
-      if: always()
+    # - name: Report Tests
+    #   run: npx github-actions-ctrf tests path-to-your-ctrf-report.json
+    #   if: always()
