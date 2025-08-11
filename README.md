@@ -1,6 +1,9 @@
 
 ---
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gchriswill/OrSwift/.github/workflows/swift.yml)
+
+---
 
 ```ASCII
 
