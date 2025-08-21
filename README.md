@@ -145,8 +145,8 @@ let user2 = Or.this(optional: optionalUser, default: defaultUser)
 #### Chaining Operations
 ```swift
 let optionalNames: [String]? = nil
-let firstNameLength = optionalNames.orEmpty.first.orEmpty.count
-// Returns 0 (empty array → nil first element → empty string → count of 0)
+let firstNameLength = optionalNames?.first.orEmpty.count
+// Returns 0 (first element → nil empty string → count of 0)
 ```
 
 #### In Reactive/Declarative Contexts
