@@ -1,7 +1,7 @@
 
 ---
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gchriswill/OrSwift/.github/workflows/swift.yml?branch=main)
+[![Unit Tests](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)
 
 ---
 
