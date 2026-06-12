@@ -28,15 +28,20 @@
 
 ## Overview
 
-`Or` is a lightweight Swift library that provides convenient extensions for handling Optional values by offering sensible default values instead of `nil`. It transforms verbose optional unwrapping patterns into clean, readable code that's perfect for reactive and declarative programming styles.
+`Or` is a lightweight `Swift` package for handling Optional values with clear, predictable defaults.
+
+Instead of repeating `nil` checks and fallback operators throughout your code, `Or` provides a small set of focused helpers such as `.orEmpty`, `.orZero`, `.orTrue`, and `.orFalse`. This reduces boilerplate, keeps call sites readable, and makes fallback intent obvious during code review.
+
+`Or` is designed for fast adoption, consistent team usage, and practical day-to-day development in reactive, declarative, and traditional Swift codebases.
 
 ## Features
 
-- 🚀 **Zero-cost abstractions** with `@inlinable` and `@inline(__always)` optimizations
-- 🎯 **Type-safe** extensions for common Swift types
-- 📝 **Intuitive API** with descriptive property names
-- 🧪 **Comprehensive test coverage** ensuring reliability
-- 🔧 **Protocol-oriented design** for extensibility
+- 🚀 Developer-friendly Optional defaults with a small, intuitive API
+- 🎯 Type-safe extensions for common Swift types
+- 🧪 Drop-in adoption with minimal refactoring
+- 🛠️ Compiler-friendly inlining annotations on key accessors
+- 📝 Comprehensive test coverage for reliability
+- 🛟 Flexible fallback handling via `.or(value)` and `Or.this(optional:default:)`
 
 ## Supported Types
 
@@ -172,11 +177,27 @@ publisher
     }
 ```
 
-## API Reference
+## Reference
 
+### Constants
+
+#### `OrNameArt`
+##### Very cool ASCII art banner string exported by the package.
+```swift
+public let OrNameArt: String
+```
+
+### Types
+
+#### `Or`
+##### Utility namespace type that exposes: `Or.this(optional:default:)`
+```swift
+public final class Or: Thisable
+```
 ### Protocols
 
 #### `Orable`
+##### Returns the wrapped value when present, otherwise the provided fallback.
 ```swift
 public protocol Orable {
     func or<T>(_ value: T) -> T
@@ -184,6 +205,7 @@ public protocol Orable {
 ```
 
 #### `Thisable`
+##### Returns the optional value when present, otherwise the provided default.
 ```swift
 public protocol Thisable {
     static func this<T>(optional: T?, default defaultValue: T) -> T
@@ -205,21 +227,13 @@ public protocol Thisable {
 #### `Optional where Wrapped: Collection`
 - `var orEmpty: Wrapped { get }`
 
-## Performance
-
-OrSwift is designed for zero runtime overhead:
-- All computed properties use `@inlinable` for compile-time optimization
-- Getters are marked with `@inline(__always)` for maximum performance
-- No additional memory allocations for default values
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Requirements
 
-- Swift 5.10+
-- iOS 13.0+ / macOS 10.15+ / tvOS 13.0+ / watchOS 6.0+
+- Swift Tools 5.10
 
 ## License
 
