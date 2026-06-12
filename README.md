@@ -2,7 +2,7 @@
 ---
 
 [![Unit Tests](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)
-
+ ![Static Badge](https://img.shields.io/badge/Swift%20Tools%20-%205.10%20-%20blue%20)
 ---
 
 ```ASCII
