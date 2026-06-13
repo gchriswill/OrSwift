@@ -1,9 +1,11 @@
 
----
+---  
 
-[![Unit Tests](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)
- ![Static Badge](https://img.shields.io/badge/Swift%20Tools%20-%205.10%20-%20blue%20)
----
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgchriswill%2FOrSwift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/gchriswill/OrSwift)  
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgchriswill%2FOrSwift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/gchriswill/OrSwift) ![Static Badge](https://img.shields.io/badge/Swift%20Tools%20-%205.10%20-%20blue%20)  
+[![Unit Tests](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)  
+
+---  
 
 ```ASCII
 
@@ -67,6 +69,10 @@ All `Numeric` protocol conforming types:
 ### Custom Types
 - Generic `.or(_:)` method for any type
 - Static `Or.this(optional:default:)` method for explicit handling
+
+## Requirements
+
+- Swift Tools 5.10
 
 ## Installation
 
@@ -229,18 +235,14 @@ public protocol Thisable {
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## Requirements
-
-- Swift Tools 5.10
+Contributions are welcome!  
+Please feel free to submit a Pull Request with your changes including matching unit-testing coverage and technical documentation.  
+For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
 This project is available under the MIT license. See the LICENSE file for more info.
 
----
+## Attributions
 
-ASCII Art from `https://patorjk.com/software/taag/#p=display&f=Fraktur&t=Or%20Swift%0A`
-
----
+- ASCII Art from `https://patorjk.com/software/taag/#p=display&f=Fraktur&t=Or%20Swift%0A`  
