@@ -2,8 +2,10 @@
 ---  
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgchriswill%2FOrSwift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/gchriswill/OrSwift)  
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgchriswill%2FOrSwift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/gchriswill/OrSwift) ![Static Badge](https://img.shields.io/badge/Swift%20Tools%20-%205.10%20-%20blue%20)  
-[![Unit Tests](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)  
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgchriswill%2FOrSwift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/gchriswill/OrSwift)  
+![Static Badge](https://img.shields.io/badge/Swift%20Tools%20-%205.10%20-%20blue%20)  
+[![](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/swift.yml)  
+[![](https://github.com/gchriswill/OrSwift/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gchriswill/OrSwift/actions/workflows/github-code-scanning/codeql)  
 
 ---  
 
@@ -82,7 +84,7 @@ Add OrSwift to your project by adding the following to your `Package.swift` file
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/gchriswill/OrSwift.git", from: "1.0.0")
+    .package(url: "https://github.com/gchriswill/OrSwift.git", from: "1.0.1")
 ]
 ```
 
