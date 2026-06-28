@@ -238,7 +238,9 @@ public protocol Thisable {
 ## Contributing
 
 Contributions are welcome!  
-Please feel free to submit a Pull Request with your changes including matching unit-testing coverage and technical documentation.  
+
+For small fixes/changes, feel free to submit a PR with your fix, unit-tests and tech docs.  
+
 For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
