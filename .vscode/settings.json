@@ -1,0 +1,38 @@
+{
+    "git.alwaysSignOff": true,
+    "git.enableCommitSigning": true,
+    "workbench.colorTheme": "Dark 2026",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Light 2026",
+    "workbench.preferredDarkColorTheme": "Dark 2026",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.shellIntegration.environmentReporting": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.suggest.quickSuggestions": {
+        "commands": "on",
+        "arguments": "on",
+        "unknown": "on"
+    },
+    "chat.editing.explainChanges.enabled": true,
+    "chat.viewProgressBadge.enabled": true,
+    "chat.agentSessionProjection.enabled": true,
+    "chat.mcp.discovery.enabled": {
+        "copilot": true
+    },
+    "chat.mcp.gallery.enabled": true,
+    "chat.checkpoints.showFileChanges": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.blame.editorDecoration.enabled": true,
+    "git.inputValidation": true,
+    "git.inputValidationLength": 64,
+    "github.gitProtocol": "ssh",
+    "github.copilot.chat.agent.autoFix": true,
+    "github.copilot.completions.chat.enabled": true
+}
