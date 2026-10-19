@@ -4,7 +4,7 @@
     "workbench.colorTheme": "Dark 2026",
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Light 2026",
-    "workbench.preferredDarkColorTheme": "Dark 2026",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
